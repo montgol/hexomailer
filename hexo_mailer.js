@@ -35,7 +35,7 @@ friendList.forEach(function(row) {
 	templateCopy = emailTemplate;
 
 	// gi  <==== global and ignore case flag
-	templateCopy = templateCopy.replace(/FIRST_NAME/gi,firstName).replace(/NUM_MONTHS_SINCE_CONTACT/gi, monthsSinceContact);
+	templateCopy = templateCopy.replace(/FIRST_NAME/gi,firstName).replace(/NUM_MONTHS_SINCE_CONTACT/gi, numMonthsSinceContact);
 
 	console.log(templateCopy);
 
